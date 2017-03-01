@@ -10,6 +10,3 @@ def createImg(width=1920, height=1080, back=(255,255,255), colors=[(255,255,255)
             draw.point((x, y), fill=colors[index])
             index = (index + 1) % length
     image.save(filename, type)
-
-
-createImg()
