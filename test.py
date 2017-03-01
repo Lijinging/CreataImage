@@ -1,1 +1,2 @@
-createImg()
+import CreateImage
+CreateImage.createImg()
